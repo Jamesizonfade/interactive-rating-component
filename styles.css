@@ -1,0 +1,130 @@
+body{
+    background-color: #171717;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h5{
+    opacity: 0.6;
+}
+
+#review-mode{
+    width: 330px;
+    height: 330px;
+    margin:10rem auto;
+    background-color: #222831;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.star-container{
+    margin: 1rem 0 2rem 1rem;
+    background-color: #333841;
+    box-shadow: 10px rgba(31, 28, 28, 0.897);
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.message-box{
+    margin: 1rem 0 2rem 1rem;
+}
+
+.message-header{
+
+}
+
+.message{
+    opacity: 0.8;
+    line-height: 1.5rem;
+    font-size: 0.8rem;
+}
+
+#rating{
+    margin-top: 1rem;
+    display: flex;
+}
+
+.rating-value{
+    background-color: #333841;
+    box-shadow: 10px rgba(31, 28, 28, 0.897);
+    width: 40px;
+    height: 40px;
+    margin-right: 1.4rem;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.rating-value:hover{
+    background-color: #FC7614;
+}
+
+.selected-values{
+    background-color: #FC7614;
+}
+
+#submit-button{
+    background-color: #FC7614; 
+    width: 290px;
+    height: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-top: 1.5rem;
+    padding: 5px;
+    border: none;
+    color: #F7F7F7;
+    border-radius: 20px;
+}
+
+#submit-button:hover{
+    color: #FC7614; 
+    background-color: #F7F7F7;
+}
+
+
+
+/* feedback section */
+
+
+#feedback-mode{
+    width: 330px;
+    height: 330px;
+    margin:10rem auto;
+    background-color: #222831;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    text-align: center;
+}
+
+.selection-box{
+    margin: auto;
+    width: 150px;
+    line-height: 2;
+    background-color: #333841;
+    box-shadow: 10px rgba(31, 28, 28, 0.897);
+    color:#FC7614 ;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 20px;
+}
+
+.thank-you{
+    margin-top: 2rem;
+}
+
+.feedback-message-box{
+    margin: 0 2rem;
+}
+
+.feedback-message{
+    font-size: 12px;
+    line-height: 1.5;
+}
